@@ -5,6 +5,7 @@
  * @param {number} n second number
  * @returns {number}
  */
-export default function sum ( m , n ) {
+
+export function sum ( m , n ) {
    return ( m + n );
 };
