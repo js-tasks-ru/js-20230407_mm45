@@ -13,7 +13,6 @@ export const omit = (obj, ...fields) => {
         let  key = keys[idx]
         if ( fields.indexOf(key) ==  -1 ) objNew[key]=obj[key]
     }
-
     return objNew ;
 
 };
