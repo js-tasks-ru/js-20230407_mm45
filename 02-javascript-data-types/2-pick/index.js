@@ -6,4 +6,13 @@
  */
 export const pick = (obj, ...fields) => {
 
+    let objNew = { } ;
+
+    for( let idx in fields){
+        let  value =fields[idx]
+        if (value in obj ) objNew[value]=obj[value]
+    }
+
+    return objNew ;
+
 };
